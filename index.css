@@ -1,15 +1,127 @@
+body{
+  margin: 0;
+  padding: 0;
+}
 main {
+  width: 100vw;
+  height: 100vh;
+  background-color: #b8dec6;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  margin: auto;
 }
 
+h1{
+  font-size: 3rem;
+  letter-spacing: .2px;
+  text-align: center;
+}
+
+.main {
+  font-size: 1.6rem;
+}
 #guess {
   width: 5em;
+  height: 1.5rem;
+  border-radius: 50% 20% / 10% 40%;
 }
 
 #reset {
   margin: 20px;
+}
+
+button {
+  display: block;
+  margin-top: 1rem;
+
+
+  background-color: #7f9989; /* Green */
+  border: none;
+  color: white;
+  padding: 8px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.center {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ text-align: center;
+}
+
+/*Fonts*/
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
 }
